@@ -1,0 +1,275 @@
+{
+    "decision_points": [
+	{
+	    "label": "Exploitation",
+	    "decision_type": "simple",
+	    "key": "E",
+	    "options": [
+		{
+		    "label": "none",
+		    "key": "N",
+		    "description": "There is no evidence of active exploitation and no public proof of concept (PoC) of how to exploit the vulnerability."
+		},
+		{
+		    "label": "active",
+		    "key": "A",
+		    "description": "Shared, observable, reliable evidence that the exploit is being used in the wild by real attackers; there is credible public reporting."
+		}
+	    ]
+	},
+	{
+	    "label": "Exposure",
+	    "key": "N",
+	    "decision_type": "simple",
+	    "options": [
+		{
+		    "label": "Internet facing",
+		    "key": "I",
+		    "description": "The asset is directly exposed to the Internet"
+		},
+		{
+		    "label": "Corporate facing",
+		    "key": "C",
+		    "description": "The asset can be reach from the corporate network"
+		},
+		{
+		    "label": "Limited",
+		    "key": "L",
+		    "description": "The asset can only be reached from trusted network segments"
+		}
+	    ]
+	},
+	{
+	    "label": "Utility",
+	    "key": "U",
+	    "decision_type": "simple",
+	    "options": [
+		{
+		    "label": "Limited",
+		    "key": "L",
+		    "description": "The attacker will likely not required this exploit to pursue the attack" 
+		},
+		{
+		    "label": "Cross boundary",
+		    "key": "T",
+		    "description": "The exploit allows to attacker to cross a security boundary by bypassing a security feature that is in use"
+		}
+	    ]
+	},
+	{
+	    "label": "Safety and mission-impact",
+	    "key": "S",
+	    "decision_type": "simple",
+	    "options":[
+		{
+		    "label": "critical",
+		    "key": "C",
+		    "description": "Possible safety impact and/or process impaired"
+		},
+		{
+		    "label": "non critical",
+		    "key": "N",
+		    "description": "Process is degraded (requires additional workload / efficiency decreased)"
+		}
+	    ]
+	},	
+	{
+	    "label": "Decision",
+	    "key": "D",
+	    "decision_type": "simple",
+	    "options": [
+		{
+		    "label": "Urgent",
+		    "key": "U",
+		    "description": "The patch requires an urgent action, that may require to shutdown the process",
+		    "color": "#ffc107"
+		},
+		{
+		    "label": "Schedule",
+		    "key": "S",
+		    "description": "Patch should be applied during the next patching slot",
+		    "color": "#EE8733"
+		},
+		{
+		    "label": "Defer",
+		    "key": "D",
+		    "description": "The vulnerability doesn't require any action at the moment",
+		    "color": "#dc3545"
+		}
+	    ]
+	}
+    ],
+    "decisions_table": [
+		{
+			"Decision": "schedule",
+			"Exploitation": "none",
+			"Exposure": "internet facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "none",
+			"Exposure": "internet facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "Urgent",
+			"Exploitation": "none",
+			"Exposure": "internet facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "Urgent",
+			"Exploitation": "none",
+			"Exposure": "internet facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "none",
+			"Exposure": "corporate facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "none",
+			"Exposure": "corporate facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "none",
+			"Exposure": "corporate facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "none",
+			"Exposure": "corporate facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "defer",
+			"Exploitation": "none",
+			"Exposure": "limited",
+			"Utility": "limited",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "defer",
+			"Exploitation": "none",
+			"Exposure": "limited",
+			"Utility": "limited",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "none",
+			"Exposure": "limited",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "defer",
+			"Exploitation": "none",
+			"Exposure": "limited",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "urgent",
+			"Exploitation": "active",
+			"Exposure": "internet facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "urgent",
+			"Exploitation": "active",
+			"Exposure": "internet facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "urgent",
+			"Exploitation": "active",
+			"Exposure": "internet facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "urgent",
+			"Exploitation": "active",
+			"Exposure": "internet facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "active",
+			"Exposure": "corporate facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "active",
+			"Exposure": "corporate facing",
+			"Utility": "limited",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "urgent",
+			"Exploitation": "active",
+			"Exposure": "corporate facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "urgent",
+			"Exploitation": "active",
+			"Exposure": "corporate facing",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "defer",
+			"Exploitation": "active",
+			"Exposure": "limited",
+			"Utility": "limited",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "defer",
+			"Exploitation": "active",
+			"Exposure": "limited",
+			"Utility": "limited",
+			"Safety and mission-impact": "non critical"
+			},
+			{
+			"Decision": "schedule",
+			"Exploitation": "active",
+			"Exposure": "limited",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "critical"
+			},
+			{
+			"Decision": "defer",
+			"Exploitation": "active",
+			"Exposure": "limited",
+			"Utility": "cross boundary",
+			"Safety and mission-impact": "non critical"
+			}
+    ],
+    "lang": "en",
+    "version": "2.0",
+    "title": "ICS cybersecurity academy custom tree v1"
+}
