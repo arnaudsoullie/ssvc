@@ -101,14 +101,14 @@
     ],
     "decisions_table": [
 		{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "none",
 			"Exposure": "internet facing",
 			"Utility": "limited",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "none",
 			"Exposure": "internet facing",
 			"Utility": "limited",
@@ -129,140 +129,140 @@
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "none",
 			"Exposure": "corporate facing",
 			"Utility": "limited",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "none",
 			"Exposure": "corporate facing",
 			"Utility": "limited",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "none",
 			"Exposure": "corporate facing",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "none",
 			"Exposure": "corporate facing",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "defer",
+			"Decision": "Defer",
 			"Exploitation": "none",
 			"Exposure": "limited",
 			"Utility": "limited",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "defer",
+			"Decision": "Defer",
 			"Exploitation": "none",
 			"Exposure": "limited",
 			"Utility": "limited",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "none",
 			"Exposure": "limited",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "defer",
+			"Decision": "Defer",
 			"Exploitation": "none",
 			"Exposure": "limited",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "urgent",
+			"Decision": "Urgent",
 			"Exploitation": "active",
 			"Exposure": "internet facing",
 			"Utility": "limited",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "urgent",
+			"Decision": "Urgent",
 			"Exploitation": "active",
 			"Exposure": "internet facing",
 			"Utility": "limited",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "urgent",
+			"Decision": "Urgent",
 			"Exploitation": "active",
 			"Exposure": "internet facing",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "urgent",
+			"Decision": "Urgent",
 			"Exploitation": "active",
 			"Exposure": "internet facing",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "active",
 			"Exposure": "corporate facing",
 			"Utility": "limited",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "active",
 			"Exposure": "corporate facing",
 			"Utility": "limited",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "urgent",
+			"Decision": "Urgent",
 			"Exploitation": "active",
 			"Exposure": "corporate facing",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "urgent",
+			"Decision": "Urgent",
 			"Exploitation": "active",
 			"Exposure": "corporate facing",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "defer",
+			"Decision": "Defer",
 			"Exploitation": "active",
 			"Exposure": "limited",
 			"Utility": "limited",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "defer",
+			"Decision": "Defer",
 			"Exploitation": "active",
 			"Exposure": "limited",
 			"Utility": "limited",
 			"Safety and mission-impact": "non critical"
 			},
 			{
-			"Decision": "schedule",
+			"Decision": "Schedule",
 			"Exploitation": "active",
 			"Exposure": "limited",
 			"Utility": "cross boundary",
 			"Safety and mission-impact": "critical"
 			},
 			{
-			"Decision": "defer",
+			"Decision": "Defer",
 			"Exploitation": "active",
 			"Exposure": "limited",
 			"Utility": "cross boundary",
